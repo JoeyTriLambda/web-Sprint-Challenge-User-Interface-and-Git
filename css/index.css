@@ -28,6 +28,33 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.navigation {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding: .5em 40em .5em 26em;
+    margin-right: 5em;
+    margin-left: 0;
+}
+
+.nav-wrapper {
+    margin: 3rem;
+    display: flex;
+}
+
+.nav-wrapper a {
+    text-decoration: none;
+    color: black;    
+}
+
+img {
+    margin-left: 25rem;
+}
+
+
 body {
 	line-height: 1;
 }
@@ -112,6 +139,126 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+}
+
+    .middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: forestgreen
+}
+
+.middle-content .boxes .box7{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -128,7 +275,7 @@ p {
 
 footer {
     width: 100%;
-    background: black;
+    
 }
 
 footer nav {
@@ -143,4 +290,107 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+/* About Page */
+.navigation-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navigation-about-links a {
+    display: flex;
+    text-decoration: none;
+}
+
+.container-about-page {    
+    margin-left: 26em;
+    margin-right: 26em;
+}
+
+.container-about-page h1{
+    margin: 0 auto;
+}
+
+.pic {
+    displa
+}
+
+.pic1 {
+    padding-right: 10em;
+}
+
+.about-img img{
+    padding-bottom: 3em;
+}
+
+.first-p {
+    border-bottom:  .25em dotted black;
+}
+
+.bottom-nav-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0;
+    padding-left: 0em;
+    column-count: 2;
+}
+
+.bottom-nav-text {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.pic-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.column {
+    display: flex;
+    flex-flow: column wrap;    
+    width: 50%;
+    column-count: 2;
+}
+
+.col-1 {
+    margin-right: 0em;
+}
+
+.col-1 p {
+    margin-left: 26em;
+}
+
+.col-2 {
+    margin-right: 0em;
+    
+}
+
+.col-2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-1 {
+    margin-left: 30em;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 9em;
+    height: 3em;
+}
+
+footer {
+    padding-left: 26em;
+}
+
+nav {
+    border: 2em black;
+    background-color: black;
+    padding-right: 20em;
 }
