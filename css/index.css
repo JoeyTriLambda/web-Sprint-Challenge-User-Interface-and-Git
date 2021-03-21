@@ -28,6 +28,33 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.navigation {
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0 10rem 1rem 18rem;
+    margin-right: 5em;
+    margin-left: 0;
+}
+
+.nav-wrapper {
+    margin: 3rem;
+    display: flex;
+}
+
+.nav-wrapper a {
+    text-decoration: none;
+    color: black;    
+}
+
+.main-img {
+    margin-left: 24rem;
+    margin-bottom: 2rem;
+}
+
+
 body {
 	line-height: 1;
 }
@@ -112,6 +139,126 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+}
+
+    .middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: forestgreen
+}
+
+.middle-content .boxes .box7{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -128,7 +275,7 @@ p {
 
 footer {
     width: 100%;
-    background: black;
+    
 }
 
 footer nav {
@@ -143,4 +290,129 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+/* About */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+}
+
+p {
+    line-height: 1.4;
+    font-weight: bolder;
+}
+
+.containerabout-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.mainheader {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.mainheader a {
+    text-decoration: none;
+    color: black;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: bolder;
+}
+.jumbopicabout {
+    margin-bottom: 2rem;
+    margin-left: 22rem;
+}
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 2rem;
+    padding: 0 1%;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed black;
+}
+* .textcontainer {
+    width: 50%;
+    padding-right: 80px;
+}
+* .textcontainer h3 {
+    margin-top: 1rem;
+}
+* .textcontainer p {
+    margin-bottom: 2rem;
+}
+
+* .textcontainer a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: bolder;
+    border-style: solid;
+}
+.secondcontent {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 2rem;
+    padding: 0 1%;
+    padding-bottom: 2rem;
+}
+.thirdcontent {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 2rem;
+    padding: 0 1%;
+    padding-bottom: 2rem;
+}
+* hr{
+    margin-top: 1rem;
+    width: 99%;
+    border-bottom: 1px dashed black;
+}
+.bottomcontent {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;  
+    /* display: flex; */
+    justify-content: space-between; 
+    /* justify-content: space-evenly; */
+    align-items: center;
+    padding: 2rem 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-body {
+    padding: 0 20rem 0 20rem;
 }
